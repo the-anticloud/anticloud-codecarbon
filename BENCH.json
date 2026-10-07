@@ -1,0 +1,1484 @@
+{
+ "schema": "anticloud.tier-bench/1",
+ "project": "CODECARBON",
+ "source": {
+  "repo_path": "E:\\fenta\\Downloads\\The Anticloud\\ANTICLOUD_REPOS\\CARBON_CAPTURE\\CODECARBON\\UPSTREAM_CLONE",
+  "git": {
+   "head": "REMOVED_CONTAMINATED_SHA_PENDING_API_RESOLVE",
+   "url": "https://github.com/the-anticloud/OPENMRS_CORE.git",
+   "branch": "master",
+   "committed_at": "2026-09-29T11:06:59+04:00",
+   "sha_verified_from": "local clone .git file read (no .git dir in clone)"
+  }
+ },
+ "metrics": {
+  "files_total": 622,
+  "source_files_scanned": 380,
+  "lines_of_code": 53579,
+  "languages": {
+   ".py": 278,
+   ".tsx": 85,
+   ".md": 51,
+   ".ts": 35,
+   ".csv": 29,
+   ".png": 23,
+   "(none)": 20,
+   ".json": 19,
+   ".yml": 11,
+   ".ipynb": 10,
+   ".svg": 9,
+   ".example": 6,
+   ".txt": 6,
+   ".sh": 6,
+   ".toml": 4
+  }
+ },
+ "licence": {
+  "spdx": "MIT",
+  "class": "A",
+  "source_file": "LICENSE",
+  "redistribution_allowed": true
+ },
+ "dependencies": {
+  "count": 58,
+  "unique": 57,
+  "by_ecosystem": {
+   "npm": 45,
+   "pypi": 13
+  },
+  "list": [
+   {
+    "ecosystem": "pypi",
+    "name": "arrow",
+    "version": "",
+    "source_file": "pyproject.toml",
+    "raw": "arrow"
+   },
+   {
+    "ecosystem": "pypi",
+    "name": "authlib",
+    "version": ">=1.2.1",
+    "source_file": "pyproject.toml",
+    "raw": "authlib>=1.2.1"
+   },
+   {
+    "ecosystem": "pypi",
+    "name": "joserfc",
+    "version": ">=1.0.0",
+    "source_file": "pyproject.toml",
+    "raw": "joserfc>=1.0.0"
+   },
+   {
+    "ecosystem": "pypi",
+    "name": "click",
+    "version": "",
+    "source_file": "pyproject.toml",
+    "raw": "click"
+   },
+   {
+    "ecosystem": "pypi",
+    "name": "pandas",
+    "version": ">=2.3.3",
+    "source_file": "pyproject.toml",
+    "raw": "pandas>=2.3.3"
+   },
+   {
+    "ecosystem": "pypi",
+    "name": "3.14",
+    "version": "",
+    "source_file": "pyproject.toml",
+    "raw": "3.14"
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@radix-ui/react-dialog",
+    "version": "^1.1.15",
+    "source_file": "webapp/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@radix-ui/react-dropdown-menu",
+    "version": "^2.1.16",
+    "source_file": "webapp/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@radix-ui/react-label",
+    "version": "^2.1.8",
+    "source_file": "webapp/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@radix-ui/react-popover",
+    "version": "^1.1.15",
+    "source_file": "webapp/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@radix-ui/react-select",
+    "version": "^2.2.6",
+    "source_file": "webapp/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@radix-ui/react-separator",
+    "version": "^1.1.8",
+    "source_file": "webapp/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@radix-ui/react-slot",
+    "version": "^1.2.4",
+    "source_file": "webapp/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@radix-ui/react-switch",
+    "version": "^1.2.6",
+    "source_file": "webapp/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@radix-ui/react-tabs",
+    "version": "^1.1.13",
+    "source_file": "webapp/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@radix-ui/react-tooltip",
+    "version": "^1.2.8",
+    "source_file": "webapp/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "class-variance-authority",
+    "version": "^0.7.1",
+    "source_file": "webapp/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "clsx",
+    "version": "^2.1.1",
+    "source_file": "webapp/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "copy-to-clipboard",
+    "version": "^3.3.3",
+    "source_file": "webapp/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "date-fns",
+    "version": "^3.6.0",
+    "source_file": "webapp/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "lucide-react",
+    "version": "^0.411.0",
+    "source_file": "webapp/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "react",
+    "version": "19.1.0",
+    "source_file": "webapp/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "react-day-picker",
+    "version": "^9.13.0",
+    "source_file": "webapp/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "react-dom",
+    "version": "19.1.0",
+    "source_file": "webapp/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "react-router-dom",
+    "version": "^7.18.2",
+    "source_file": "webapp/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "recharts",
+    "version": "^2.15.4",
+    "source_file": "webapp/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "sonner",
+    "version": "^2.0.7",
+    "source_file": "webapp/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "swr",
+    "version": "^2.3.8",
+    "source_file": "webapp/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "tailwind-merge",
+    "version": "^2.6.1",
+    "source_file": "webapp/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "tailwindcss",
+    "version": "^4.3.1",
+    "source_file": "webapp/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "tailwindcss-animate",
+    "version": "^1.0.7",
+    "source_file": "webapp/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "zod",
+    "version": "^3.25.76",
+    "source_file": "webapp/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@playwright/test",
+    "version": "^1.59.1",
+    "source_file": "webapp/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@tailwindcss/postcss",
+    "version": "^4.3.3",
+    "source_file": "webapp/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@testing-library/jest-dom",
+    "version": "^6.6.3",
+    "source_file": "webapp/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@testing-library/react",
+    "version": "^16.1.0",
+    "source_file": "webapp/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@testing-library/user-event",
+    "version": "^14.5.2",
+    "source_file": "webapp/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@types/node",
+    "version": "^20.19.30",
+    "source_file": "webapp/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@types/react",
+    "version": "19.1.0",
+    "source_file": "webapp/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@types/react-dom",
+    "version": "19.1.1",
+    "source_file": "webapp/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@vitejs/plugin-react",
+    "version": "^6.0.2",
+    "source_file": "webapp/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "eslint",
+    "version": "^9.39.2",
+    "source_file": "webapp/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "eslint-config-prettier",
+    "version": "^9.1.2",
+    "source_file": "webapp/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "eslint-plugin-react-hooks",
+    "version": "^7.1.1",
+    "source_file": "webapp/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "jsdom",
+    "version": "^25.0.1",
+    "source_file": "webapp/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "postcss",
+    "version": "^8.5.25",
+    "source_file": "webapp/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "prettier",
+    "version": "3.3.3",
+    "source_file": "webapp/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "typescript",
+    "version": "^5.9.3",
+    "source_file": "webapp/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "typescript-eslint",
+    "version": "^8.65.0",
+    "source_file": "webapp/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "vite",
+    "version": "^8.0.16",
+    "source_file": "webapp/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "vitest",
+    "version": "^4.1.8",
+    "source_file": "webapp/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "pypi",
+    "name": "alembic",
+    "version": "<2.0.0",
+    "source_file": "carbonserver/pyproject.toml",
+    "raw": "alembic<2.0.0"
+   },
+   {
+    "ecosystem": "pypi",
+    "name": "authlib",
+    "version": ">=1.7.2",
+    "source_file": "carbonserver/pyproject.toml",
+    "raw": "authlib>=1.7.2"
+   },
+   {
+    "ecosystem": "pypi",
+    "name": "bcrypt",
+    "version": "<5.0.0",
+    "source_file": "carbonserver/pyproject.toml",
+    "raw": "bcrypt<5.0.0"
+   },
+   {
+    "ecosystem": "pypi",
+    "name": "python-dateutil",
+    "version": "<3.0.0",
+    "source_file": "carbonserver/pyproject.toml",
+    "raw": "python-dateutil<3.0.0"
+   },
+   {
+    "ecosystem": "pypi",
+    "name": "dependency-injector",
+    "version": "<5.0.0",
+    "source_file": "carbonserver/pyproject.toml",
+    "raw": "dependency-injector<5.0.0"
+   },
+   {
+    "ecosystem": "pypi",
+    "name": "fastapi",
+    "version": "<0.140.5",
+    "source_file": "carbonserver/pyproject.toml",
+    "raw": "fastapi<0.140.5"
+   },
+   {
+    "ecosystem": "pypi",
+    "name": "httpx",
+    "version": "<1.0.0",
+    "source_file": "carbonserver/pyproject.toml",
+    "raw": "httpx<1.0.0"
+   }
+  ]
+ },
+ "owasp_top10": {
+  "total_findings": 70,
+  "files_with_findings": 55,
+  "severity": {
+   "high": 17,
+   "medium": 4,
+   "low": 49
+  },
+  "categories": {
+   "A01-BrokenAccessControl": {
+    "count": 1,
+    "findings": [
+     {
+      "severity": "high",
+      "file": "deploy/deploy.py",
+      "line": 214,
+      "cwe": "CWE-295",
+      "snippet": "if api.get(url + \"/clients\", verify=False).status_code == 200:"
+     }
+    ]
+   },
+   "A02-CryptographicFailures": {
+    "count": 0,
+    "findings": []
+   },
+   "A03-Injection": {
+    "count": 6,
+    "findings": [
+     {
+      "severity": "high",
+      "file": "tests/test_ram.py",
+      "line": 122,
+      "cwe": "CWE-78",
+      "snippet": "# interpreted by a shell (no shell=True)."
+     },
+     {
+      "severity": "high",
+      "file": "scripts/agent-vm.setup.sh",
+      "line": 45,
+      "cwe": "CWE-78",
+      "snippet": "&& out=$(mktemp) && wget -nv -O$out https://cli.github.com/packages/githubcli-archive-keyring.gpg \\"
+     },
+     {
+      "severity": "high",
+      "file": "examples/compare_cpu_load_and_RAPL.py",
+      "line": 265,
+      "cwe": "CWE-78",
+      "snippet": "shell=True,"
+     },
+     {
+      "severity": "high",
+      "file": "examples/intel_npu.py",
+      "line": 47,
+      "cwe": "CWE-95",
+      "snippet": "model.eval()"
+     },
+     {
+      "severity": "high",
+      "file": "examples/pytorch-multigpu-example.py",
+      "line": 121,
+      "cwe": "CWE-95",
+      "snippet": "cnn.eval()"
+     },
+     {
+      "severity": "high",
+      "file": "codecarbon/core/cpu.py",
+      "line": 361,
+      "cwe": "CWE-78",
+      "snippet": "shell=True,"
+     }
+    ]
+   },
+   "A04-InsecureDesign": {
+    "count": 20,
+    "findings": [
+     {
+      "severity": "low",
+      "file": "webapp/tests/components/projectTokens/projectTokenTable.test.tsx",
+      "line": 47,
+      "cwe": "CWE-",
+      "snippet": "token: \"tkn_xxx\","
+     },
+     {
+      "severity": "low",
+      "file": "webapp/src/api/mock/data.ts",
+      "line": 212,
+      "cwe": "CWE-",
+      "snippet": "token: `mock_${args.id}_xxxxxxxxxxxxxxxxxxxxxx`,"
+     },
+     {
+      "severity": "low",
+      "file": "webapp/src/api/mock/handlers.ts",
+      "line": 188,
+      "cwe": "CWE-",
+      "snippet": "token: \"mock_newxxxxxxxxxxxxxxxxxxxxxxxxx\","
+     },
+     {
+      "severity": "low",
+      "file": "tests/test_ram.py",
+      "line": 10,
+      "cwe": "CWE-",
+      "snippet": "# TODO: need help: test multiprocess case"
+     },
+     {
+      "severity": "low",
+      "file": "tests/cli/test_cli.py",
+      "line": 107,
+      "cwe": "CWE-",
+      "snippet": "\"Europe/Paris\",  # TODO: This one more line make test works, there is a bug somewhere..."
+     },
+     {
+      "severity": "low",
+      "file": "examples/compare_cpu_load_and_RAPL.py",
+      "line": 12,
+      "cwe": "CWE-",
+      "snippet": "export TAPO_USERNAME=XXX"
+     },
+     {
+      "severity": "low",
+      "file": "examples/pytorch-multigpu-example.py",
+      "line": 99,
+      "cwe": "CWE-",
+      "snippet": "# dim = 0 [30, xxx] -> [10, ...], [10, ...], [10, ...] on 3 GPUs"
+     },
+     {
+      "severity": "low",
+      "file": "docker/entrypoint.sh",
+      "line": 2,
+      "cwe": "CWE-",
+      "snippet": "# TODO : Run a Python code to use codecarbon package and call the API"
+     },
+     {
+      "severity": "low",
+      "file": "deploy/deploy.py",
+      "line": 14,
+      "cwe": "CWE-",
+      "snippet": "# TODO: use pydantic settings"
+     },
+     {
+      "severity": "low",
+      "file": "codecarbon/emissions_tracker.py",
+      "line": 49,
+      "cwe": "CWE-",
+      "snippet": "# TODO: document this"
+     },
+     {
+      "severity": "low",
+      "file": "codecarbon/output_methods/metrics/prometheus.py",
+      "line": 34,
+      "cwe": "CWE-",
+      "snippet": "# TODO: add labelnames"
+     },
+     {
+      "severity": "low",
+      "file": "codecarbon/core/api_client.py",
+      "line": 5,
+      "cwe": "CWE-",
+      "snippet": "TODO : use async call to API"
+     },
+     {
+      "severity": "low",
+      "file": "codecarbon/core/cpu.py",
+      "line": 411,
+      "cwe": "CWE-",
+      "snippet": "# TODO: Read energy"
+     },
+     {
+      "severity": "low",
+      "file": "codecarbon/core/emissions.py",
+      "line": 270,
+      "cwe": "CWE-",
+      "snippet": "# TODO: Deal with missing data, default to something"
+     },
+     {
+      "severity": "low",
+      "file": "codecarbon/core/measure.py",
+      "line": 2,
+      "cwe": "CWE-",
+      "snippet": "TODO: This look like this class is not used yet, but it will be nice to use it the future for readability of codecarbon/emissions_tracker.py"
+     },
+     {
+      "severity": "low",
+      "file": "codecarbon/core/powermetrics.py",
+      "line": 255,
+      "cwe": "CWE-",
+      "snippet": "# TODO: Read energy"
+     },
+     {
+      "severity": "low",
+      "file": "codecarbon/cli/main.py",
+      "line": 173,
+      "cwe": "CWE-",
+      "snippet": "# api = ApiClient(endpoint_url=API_URL) # TODO: get endpoint from config"
+     },
+     {
+      "severity": "low",
+      "file": "carbonserver/tests/api/integration/test_api_black_box.py",
+      "line": 28,
+      "cwe": "CWE-",
+      "snippet": "# hack to ensure url points to api endpoint"
+     },
+     {
+      "severity": "low",
+      "file": "carbonserver/carbonserver/api/services/project_token_service.py",
+      "line": 161,
+      "cwe": "CWE-",
+      "snippet": "# TODO: Check if the project token is expired"
+     },
+     {
+      "severity": "low",
+      "file": "carbonserver/carbonserver/api/services/signup_service.py",
+      "line": 61,
+      "cwe": "CWE-",
+      "snippet": "# TODO: Add a transaction to rollback if any of the following steps fail"
+     }
+    ]
+   },
+   "A05-SecurityMisconfiguration": {
+    "count": 4,
+    "findings": [
+     {
+      "severity": "medium",
+      "file": "deploy/deploy.py",
+      "line": 214,
+      "cwe": "CWE-1188",
+      "snippet": "if api.get(url + \"/clients\", verify=False).status_code == 200:"
+     },
+     {
+      "severity": "medium",
+      "file": "codecarbon/emissions_tracker.py",
+      "line": 1769,
+      "cwe": "CWE-1188",
+      "snippet": "is_tracker_default = True"
+     },
+     {
+      "severity": "medium",
+      "file": "carbonserver/carbonserver/database/alembic/versions/5abae4eb2079_create_tables.py",
+      "line": 143,
+      "cwe": "CWE-1188",
+      "snippet": "sa.Column(\"is_active\", sa.Boolean, default=True),"
+     },
+     {
+      "severity": "medium",
+      "file": "carbonserver/carbonserver/api/infra/database/sql_models.py",
+      "line": 179,
+      "cwe": "CWE-1188",
+      "snippet": "is_active = Column(Boolean, default=True)"
+     }
+    ]
+   },
+   "A06-VulnerableComponents": {
+    "count": 1,
+    "findings": [
+     {
+      "severity": "low",
+      "file": "examples/slurm_rocm/pytorch_matrix.py",
+      "line": 12,
+      "cwe": "CWE-1104",
+      "snippet": "pip3 install torch==2.10.0 torchvision torchaudio --index-url https://download.pytorch.org/whl/rocm7.0"
+     }
+    ]
+   },
+   "A07-AuthFailures": {
+    "count": 9,
+    "findings": [
+     {
+      "severity": "high",
+      "file": "webapp/tests/utils/crypto.test.ts",
+      "line": 18,
+      "cwe": "CWE-798",
+      "snippet": "const token =\n            \"o2-eIx03_AFnlp2MGLTE3J3NbL0_x-Q7nHp8Lgnsrh0_6KUeRVLnEvnZletduYJw4ZWnigqkwP0sIRCXmJKgHA\";"
+     },
+     {
+      "severity": "high",
+      "file": "tests/test_api_call.py",
+      "line": 34,
+      "cwe": "CWE-798",
+      "snippet": "access_token=\"access-token\","
+     },
+     {
+      "severity": "high",
+      "file": "tests/test_config.py",
+      "line": 277,
+      "cwe": "CWE-798",
+      "snippet": "electricitymaps_api_token=\"signal-token\","
+     },
+     {
+      "severity": "high",
+      "file": "tests/test_electricitymaps_api.py",
+      "line": 42,
+      "cwe": "CWE-798",
+      "snippet": "api_key = \"YOUR_REAL_API_KEY\""
+     },
+     {
+      "severity": "high",
+      "file": "carbonserver/tests/api/service/test_organization_service.py",
+      "line": 32,
+      "cwe": "CWE-798",
+      "snippet": "API_KEY = \"9INn3JsdhCGzLAuOUC6rAw\""
+     },
+     {
+      "severity": "high",
+      "file": "carbonserver/tests/api/service/test_run_service.py",
+      "line": 27,
+      "cwe": "CWE-798",
+      "snippet": "API_KEY = \"9INn3JsdhCGzLAuOUC6rAw\""
+     },
+     {
+      "severity": "high",
+      "file": "carbonserver/tests/api/service/test_sign_up_service.py",
+      "line": 109,
+      "cwe": "CWE-798",
+      "snippet": "name=\"Gontran Bonheur\", email=\"xyz@email.com\", password=\"pwd\""
+     },
+     {
+      "severity": "high",
+      "file": "carbonserver/tests/api/integration/test_api_black_box.py",
+      "line": 36,
+      "cwe": "CWE-798",
+      "snippet": "USER_PASSWORD = \"Secret1!\u00eestring\""
+     },
+     {
+      "severity": "high",
+      "file": "carbonserver/tests/api/integration/test_project_cascade_delete.py",
+      "line": 208,
+      "cwe": "CWE-798",
+      "snippet": "hashed_token=\"hashed_value_1\","
+     }
+    ]
+   },
+   "A08-SoftwareDataIntegrity": {
+    "count": 28,
+    "findings": [
+     {
+      "severity": "low",
+      "file": "webapp/playwright.config.ts",
+      "line": 12,
+      "cwe": "CWE-319",
+      "snippet": "baseURL: `http://localhost:${PORT}`,"
+     },
+     {
+      "severity": "low",
+      "file": "webapp/vitest.config.ts",
+      "line": 17,
+      "cwe": "CWE-319",
+      "snippet": "VITE_API_URL: \"http://api.test/api\","
+     },
+     {
+      "severity": "low",
+      "file": "webapp/tests/pages/LandingPage.test.tsx",
+      "line": 15,
+      "cwe": "CWE-319",
+      "snippet": "buildLoginUrl: () => \"http://api.test/api/auth/login\","
+     },
+     {
+      "severity": "low",
+      "file": "webapp/tests/components/auth-guard.test.tsx",
+      "line": 7,
+      "cwe": "CWE-319",
+      "snippet": "buildLoginUrl: () => \"http://api.test/api/auth/login?redirect=...\","
+     },
+     {
+      "severity": "low",
+      "file": "webapp/tests/api/auth.test.ts",
+      "line": 15,
+      "cwe": "CWE-319",
+      "snippet": "\"http://api.test/api/auth/login\","
+     },
+     {
+      "severity": "low",
+      "file": "webapp/tests/api/errors.test.ts",
+      "line": 13,
+      "cwe": "CWE-319",
+      "snippet": "buildLoginUrl: () => \"http://api.test/api/auth/login?redirect=...\","
+     },
+     {
+      "severity": "low",
+      "file": "webapp/tests/api/mock/handlers.test.ts",
+      "line": 6,
+      "cwe": "CWE-319",
+      "snippet": "return new URL(path, \"http://mock.local\");"
+     },
+     {
+      "severity": "low",
+      "file": "webapp/src/api/mock/index.ts",
+      "line": 50,
+      "cwe": "CWE-319",
+      "snippet": "\"http://mock.local\","
+     },
+     {
+      "severity": "low",
+      "file": "tests/test_api_call.py",
+      "line": 32,
+      "cwe": "CWE-319",
+      "snippet": "endpoint_url=\"http://test.com\","
+     },
+     {
+      "severity": "low",
+      "file": "tests/test_config.py",
+      "line": 267,
+      "cwe": "CWE-319",
+      "snippet": "emissions_endpoint=http://testhost:2000"
+     },
+     {
+      "severity": "low",
+      "file": "tests/test_telemetry_client.py",
+      "line": 14,
+      "cwe": "CWE-319",
+      "snippet": "endpoint_url=\"http://test.com/\","
+     },
+     {
+      "severity": "low",
+      "file": "tests/output_methods/test_http.py",
+      "line": 46,
+      "cwe": "CWE-319",
+      "snippet": "self.url = \"http://test.com/emissions\""
+     },
+     {
+      "severity": "low",
+      "file": "tests/cli/test_cli.py",
+      "line": 159,
+      "cwe": "CWE-319",
+      "snippet": "\"api_endpoint\": \"http://localhost:8008\","
+     },
+     {
+      "severity": "low",
+      "file": "tests/cli/test_cli_auth.py",
+      "line": 268,
+      "cwe": "CWE-319",
+      "snippet": "\"http://localhost:8090/callback?code=123\","
+     },
+     {
+      "severity": "high",
+      "file": "scripts/agent-vm.setup.sh",
+      "line": 85,
+      "cwe": "CWE-494",
+      "snippet": "# curl -fsSL https://opencode.ai/install | bash"
+     },
+     {
+      "severity": "low",
+      "file": "scripts/check_docs_links.py",
+      "line": 151,
+      "cwe": "CWE-319",
+      "snippet": "if url.startswith(\"http://localhost\") or url.startswith(\"http://127.0.0.1\"):"
+     },
+     {
+      "severity": "low",
+      "file": "examples/api_call_demo.py",
+      "line": 7,
+      "cwe": "CWE-319",
+      "snippet": "# api_endpoint=\"http://your api if you want\","
+     },
+     {
+      "severity": "low",
+      "file": "examples/ollama_local_api.py",
+      "line": 23,
+      "cwe": "CWE-319",
+      "snippet": "OLLAMA_URL = \"http://localhost:11434\""
+     },
+     {
+      "severity": "low",
+      "file": "deploy/deploy.py",
+      "line": 72,
+      "cwe": "CWE-319",
+      "snippet": "\"FRONTEND_URL\": f\"http://{settings.hostname}\","
+     },
+     {
+      "severity": "low",
+      "file": "codecarbon/emissions_tracker.py",
+      "line": 1385,
+      "cwe": "CWE-319",
+      "snippet": "See http://api.electricitymap.org/v3/zones for"
+     },
+     {
+      "severity": "low",
+      "file": "codecarbon/viz/carbonboard_on_api.py",
+      "line": 273,
+      "cwe": "CWE-319",
+      "snippet": "df = Data.get_data_from_api(conf.get(\"api_endpoint\", \"http://localhost:8000\"))"
+     },
+     {
+      "severity": "low",
+      "file": "codecarbon/core/cloud.py",
+      "line": 19,
+      "cwe": "CWE-319",
+      "snippet": "\"url\": \"http://169.254.169.254/latest/dynamic/instance-identity/document\","
+     },
+     {
+      "severity": "low",
+      "file": "codecarbon/cli/auth.py",
+      "line": 33,
+      "cwe": "CWE-319",
+      "snippet": "_REDIRECT_URI = f\"http://localhost:{_REDIRECT_PORT}/callback\""
+     },
+     {
+      "severity": "low",
+      "file": "carbonserver/main.py",
+      "line": 116,
+      "cwe": "CWE-319",
+      "snippet": "\"http://localhost\","
+     },
+     {
+      "severity": "low",
+      "file": "carbonserver/tests/api/service/test_auth_service.py",
+      "line": 59,
+      "cwe": "CWE-319",
+      "snippet": "monkeypatch.setattr(authenticate.settings, \"frontend_url\", \"http://localhost:3000\")"
+     }
+    ]
+   },
+   "A09-LoggingMonitoringFailures": {
+    "count": 0,
+    "findings": []
+   },
+   "A10-SSRF": {
+    "count": 1,
+    "findings": [
+     {
+      "severity": "low",
+      "file": "carbonserver/carbonserver/api/services/auth_providers/oidc_auth_provider.py",
+      "line": 45,
+      "cwe": "CWE-601",
+      "snippet": "return await self.client.authorize_redirect("
+     }
+    ]
+   }
+  }
+ },
+ "owasp_llm_top10": {
+  "total_findings": 1,
+  "files_with_findings": 1,
+  "severity": {
+   "high": 0,
+   "medium": 1,
+   "low": 0
+  },
+  "categories": {
+   "LLM01-PromptInjection": {
+    "count": 0,
+    "findings": []
+   },
+   "LLM02-SensitiveInfoDisclosure": {
+    "count": 0,
+    "findings": []
+   },
+   "LLM03-SupplyChain": {
+    "count": 1,
+    "findings": [
+     {
+      "severity": "medium",
+      "file": "examples/transformers_smollm2.py",
+      "line": 58,
+      "cwe": "CWE-494",
+      "snippet": "model = AutoModelForCausalLM.from_pretrained(model_name)"
+     }
+    ]
+   },
+   "LLM04-DataPoisoning": {
+    "count": 0,
+    "findings": []
+   },
+   "LLM05-ImproperOutputHandling": {
+    "count": 0,
+    "findings": []
+   },
+   "LLM06-ExcessiveAgency": {
+    "count": 0,
+    "findings": []
+   },
+   "LLM07-SystemPromptLeak": {
+    "count": 0,
+    "findings": []
+   },
+   "LLM08-VectorEmbeddingWeaknesses": {
+    "count": 0,
+    "findings": []
+   },
+   "LLM09-Misinformation": {
+    "count": 0,
+    "findings": []
+   },
+   "LLM10-UnboundedConsumption": {
+    "count": 0,
+    "findings": []
+   }
+  }
+ },
+ "sbom": {
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.5",
+  "serialNumber": "urn:uuid:a483d1e8-339c-5b1a-a9a8-0be11ba15561",
+  "version": 1,
+  "metadata": {
+   "timestamp": "2026-10-06T09:33:46Z",
+   "component": {
+    "type": "application",
+    "name": "CODECARBON",
+    "version": "83b357604d34",
+    "bom-ref": "pkg:generic/anticloud/CODECARBON@83b357604d34",
+    "purl": "pkg:generic/anticloud/CODECARBON@83b357604d34",
+    "licenses": [
+     {
+      "license": {
+       "id": "MIT"
+      }
+     }
+    ]
+   },
+   "properties": [
+    {
+     "name": "anticloud:source-commit",
+     "value": "REMOVED_CONTAMINATED_SHA_PENDING_API_RESOLVE"
+    },
+    {
+     "name": "anticloud:source-url",
+     "value": "https://github.com/the-anticloud/OPENMRS_CORE.git"
+    },
+    {
+     "name": "anticloud:tier",
+     "value": "tier-agent"
+    }
+   ]
+  },
+  "components": [
+   {
+    "type": "library",
+    "name": "arrow",
+    "version": "unspecified",
+    "purl": "pkg:pypi/arrow",
+    "bom-ref": "pypi/arrow@unspecified"
+   },
+   {
+    "type": "library",
+    "name": "authlib",
+    "version": ">=1.2.1",
+    "purl": "pkg:pypi/authlib@1.2.1",
+    "bom-ref": "pypi/authlib@>=1.2.1"
+   },
+   {
+    "type": "library",
+    "name": "joserfc",
+    "version": ">=1.0.0",
+    "purl": "pkg:pypi/joserfc@1.0.0",
+    "bom-ref": "pypi/joserfc@>=1.0.0"
+   },
+   {
+    "type": "library",
+    "name": "click",
+    "version": "unspecified",
+    "purl": "pkg:pypi/click",
+    "bom-ref": "pypi/click@unspecified"
+   },
+   {
+    "type": "library",
+    "name": "pandas",
+    "version": ">=2.3.3",
+    "purl": "pkg:pypi/pandas@2.3.3",
+    "bom-ref": "pypi/pandas@>=2.3.3"
+   },
+   {
+    "type": "library",
+    "name": "3.14",
+    "version": "unspecified",
+    "purl": "pkg:pypi/3.14",
+    "bom-ref": "pypi/3.14@unspecified"
+   },
+   {
+    "type": "library",
+    "name": "@radix-ui/react-dialog",
+    "version": "^1.1.15",
+    "purl": "pkg:npm/@radix-ui/react-dialog@^1.1.15",
+    "bom-ref": "npm/@radix-ui/react-dialog@^1.1.15"
+   },
+   {
+    "type": "library",
+    "name": "@radix-ui/react-dropdown-menu",
+    "version": "^2.1.16",
+    "purl": "pkg:npm/@radix-ui/react-dropdown-menu@^2.1.16",
+    "bom-ref": "npm/@radix-ui/react-dropdown-menu@^2.1.16"
+   },
+   {
+    "type": "library",
+    "name": "@radix-ui/react-label",
+    "version": "^2.1.8",
+    "purl": "pkg:npm/@radix-ui/react-label@^2.1.8",
+    "bom-ref": "npm/@radix-ui/react-label@^2.1.8"
+   },
+   {
+    "type": "library",
+    "name": "@radix-ui/react-popover",
+    "version": "^1.1.15",
+    "purl": "pkg:npm/@radix-ui/react-popover@^1.1.15",
+    "bom-ref": "npm/@radix-ui/react-popover@^1.1.15"
+   },
+   {
+    "type": "library",
+    "name": "@radix-ui/react-select",
+    "version": "^2.2.6",
+    "purl": "pkg:npm/@radix-ui/react-select@^2.2.6",
+    "bom-ref": "npm/@radix-ui/react-select@^2.2.6"
+   },
+   {
+    "type": "library",
+    "name": "@radix-ui/react-separator",
+    "version": "^1.1.8",
+    "purl": "pkg:npm/@radix-ui/react-separator@^1.1.8",
+    "bom-ref": "npm/@radix-ui/react-separator@^1.1.8"
+   },
+   {
+    "type": "library",
+    "name": "@radix-ui/react-slot",
+    "version": "^1.2.4",
+    "purl": "pkg:npm/@radix-ui/react-slot@^1.2.4",
+    "bom-ref": "npm/@radix-ui/react-slot@^1.2.4"
+   },
+   {
+    "type": "library",
+    "name": "@radix-ui/react-switch",
+    "version": "^1.2.6",
+    "purl": "pkg:npm/@radix-ui/react-switch@^1.2.6",
+    "bom-ref": "npm/@radix-ui/react-switch@^1.2.6"
+   },
+   {
+    "type": "library",
+    "name": "@radix-ui/react-tabs",
+    "version": "^1.1.13",
+    "purl": "pkg:npm/@radix-ui/react-tabs@^1.1.13",
+    "bom-ref": "npm/@radix-ui/react-tabs@^1.1.13"
+   },
+   {
+    "type": "library",
+    "name": "@radix-ui/react-tooltip",
+    "version": "^1.2.8",
+    "purl": "pkg:npm/@radix-ui/react-tooltip@^1.2.8",
+    "bom-ref": "npm/@radix-ui/react-tooltip@^1.2.8"
+   },
+   {
+    "type": "library",
+    "name": "class-variance-authority",
+    "version": "^0.7.1",
+    "purl": "pkg:npm/class-variance-authority@^0.7.1",
+    "bom-ref": "npm/class-variance-authority@^0.7.1"
+   },
+   {
+    "type": "library",
+    "name": "clsx",
+    "version": "^2.1.1",
+    "purl": "pkg:npm/clsx@^2.1.1",
+    "bom-ref": "npm/clsx@^2.1.1"
+   },
+   {
+    "type": "library",
+    "name": "copy-to-clipboard",
+    "version": "^3.3.3",
+    "purl": "pkg:npm/copy-to-clipboard@^3.3.3",
+    "bom-ref": "npm/copy-to-clipboard@^3.3.3"
+   },
+   {
+    "type": "library",
+    "name": "date-fns",
+    "version": "^3.6.0",
+    "purl": "pkg:npm/date-fns@^3.6.0",
+    "bom-ref": "npm/date-fns@^3.6.0"
+   },
+   {
+    "type": "library",
+    "name": "lucide-react",
+    "version": "^0.411.0",
+    "purl": "pkg:npm/lucide-react@^0.411.0",
+    "bom-ref": "npm/lucide-react@^0.411.0"
+   },
+   {
+    "type": "library",
+    "name": "react",
+    "version": "19.1.0",
+    "purl": "pkg:npm/react@19.1.0",
+    "bom-ref": "npm/react@19.1.0"
+   },
+   {
+    "type": "library",
+    "name": "react-day-picker",
+    "version": "^9.13.0",
+    "purl": "pkg:npm/react-day-picker@^9.13.0",
+    "bom-ref": "npm/react-day-picker@^9.13.0"
+   },
+   {
+    "type": "library",
+    "name": "react-dom",
+    "version": "19.1.0",
+    "purl": "pkg:npm/react-dom@19.1.0",
+    "bom-ref": "npm/react-dom@19.1.0"
+   },
+   {
+    "type": "library",
+    "name": "react-router-dom",
+    "version": "^7.18.2",
+    "purl": "pkg:npm/react-router-dom@^7.18.2",
+    "bom-ref": "npm/react-router-dom@^7.18.2"
+   },
+   {
+    "type": "library",
+    "name": "recharts",
+    "version": "^2.15.4",
+    "purl": "pkg:npm/recharts@^2.15.4",
+    "bom-ref": "npm/recharts@^2.15.4"
+   },
+   {
+    "type": "library",
+    "name": "sonner",
+    "version": "^2.0.7",
+    "purl": "pkg:npm/sonner@^2.0.7",
+    "bom-ref": "npm/sonner@^2.0.7"
+   },
+   {
+    "type": "library",
+    "name": "swr",
+    "version": "^2.3.8",
+    "purl": "pkg:npm/swr@^2.3.8",
+    "bom-ref": "npm/swr@^2.3.8"
+   },
+   {
+    "type": "library",
+    "name": "tailwind-merge",
+    "version": "^2.6.1",
+    "purl": "pkg:npm/tailwind-merge@^2.6.1",
+    "bom-ref": "npm/tailwind-merge@^2.6.1"
+   },
+   {
+    "type": "library",
+    "name": "tailwindcss",
+    "version": "^4.3.1",
+    "purl": "pkg:npm/tailwindcss@^4.3.1",
+    "bom-ref": "npm/tailwindcss@^4.3.1"
+   },
+   {
+    "type": "library",
+    "name": "tailwindcss-animate",
+    "version": "^1.0.7",
+    "purl": "pkg:npm/tailwindcss-animate@^1.0.7",
+    "bom-ref": "npm/tailwindcss-animate@^1.0.7"
+   },
+   {
+    "type": "library",
+    "name": "zod",
+    "version": "^3.25.76",
+    "purl": "pkg:npm/zod@^3.25.76",
+    "bom-ref": "npm/zod@^3.25.76"
+   },
+   {
+    "type": "library",
+    "name": "@playwright/test",
+    "version": "^1.59.1",
+    "purl": "pkg:npm/@playwright/test@^1.59.1",
+    "bom-ref": "npm/@playwright/test@^1.59.1"
+   },
+   {
+    "type": "library",
+    "name": "@tailwindcss/postcss",
+    "version": "^4.3.3",
+    "purl": "pkg:npm/@tailwindcss/postcss@^4.3.3",
+    "bom-ref": "npm/@tailwindcss/postcss@^4.3.3"
+   },
+   {
+    "type": "library",
+    "name": "@testing-library/jest-dom",
+    "version": "^6.6.3",
+    "purl": "pkg:npm/@testing-library/jest-dom@^6.6.3",
+    "bom-ref": "npm/@testing-library/jest-dom@^6.6.3"
+   },
+   {
+    "type": "library",
+    "name": "@testing-library/react",
+    "version": "^16.1.0",
+    "purl": "pkg:npm/@testing-library/react@^16.1.0",
+    "bom-ref": "npm/@testing-library/react@^16.1.0"
+   },
+   {
+    "type": "library",
+    "name": "@testing-library/user-event",
+    "version": "^14.5.2",
+    "purl": "pkg:npm/@testing-library/user-event@^14.5.2",
+    "bom-ref": "npm/@testing-library/user-event@^14.5.2"
+   },
+   {
+    "type": "library",
+    "name": "@types/node",
+    "version": "^20.19.30",
+    "purl": "pkg:npm/@types/node@^20.19.30",
+    "bom-ref": "npm/@types/node@^20.19.30"
+   },
+   {
+    "type": "library",
+    "name": "@types/react",
+    "version": "19.1.0",
+    "purl": "pkg:npm/@types/react@19.1.0",
+    "bom-ref": "npm/@types/react@19.1.0"
+   },
+   {
+    "type": "library",
+    "name": "@types/react-dom",
+    "version": "19.1.1",
+    "purl": "pkg:npm/@types/react-dom@19.1.1",
+    "bom-ref": "npm/@types/react-dom@19.1.1"
+   },
+   {
+    "type": "library",
+    "name": "@vitejs/plugin-react",
+    "version": "^6.0.2",
+    "purl": "pkg:npm/@vitejs/plugin-react@^6.0.2",
+    "bom-ref": "npm/@vitejs/plugin-react@^6.0.2"
+   },
+   {
+    "type": "library",
+    "name": "eslint",
+    "version": "^9.39.2",
+    "purl": "pkg:npm/eslint@^9.39.2",
+    "bom-ref": "npm/eslint@^9.39.2"
+   },
+   {
+    "type": "library",
+    "name": "eslint-config-prettier",
+    "version": "^9.1.2",
+    "purl": "pkg:npm/eslint-config-prettier@^9.1.2",
+    "bom-ref": "npm/eslint-config-prettier@^9.1.2"
+   },
+   {
+    "type": "library",
+    "name": "eslint-plugin-react-hooks",
+    "version": "^7.1.1",
+    "purl": "pkg:npm/eslint-plugin-react-hooks@^7.1.1",
+    "bom-ref": "npm/eslint-plugin-react-hooks@^7.1.1"
+   },
+   {
+    "type": "library",
+    "name": "jsdom",
+    "version": "^25.0.1",
+    "purl": "pkg:npm/jsdom@^25.0.1",
+    "bom-ref": "npm/jsdom@^25.0.1"
+   },
+   {
+    "type": "library",
+    "name": "postcss",
+    "version": "^8.5.25",
+    "purl": "pkg:npm/postcss@^8.5.25",
+    "bom-ref": "npm/postcss@^8.5.25"
+   },
+   {
+    "type": "library",
+    "name": "prettier",
+    "version": "3.3.3",
+    "purl": "pkg:npm/prettier@3.3.3",
+    "bom-ref": "npm/prettier@3.3.3"
+   },
+   {
+    "type": "library",
+    "name": "typescript",
+    "version": "^5.9.3",
+    "purl": "pkg:npm/typescript@^5.9.3",
+    "bom-ref": "npm/typescript@^5.9.3"
+   },
+   {
+    "type": "library",
+    "name": "typescript-eslint",
+    "version": "^8.65.0",
+    "purl": "pkg:npm/typescript-eslint@^8.65.0",
+    "bom-ref": "npm/typescript-eslint@^8.65.0"
+   },
+   {
+    "type": "library",
+    "name": "vite",
+    "version": "^8.0.16",
+    "purl": "pkg:npm/vite@^8.0.16",
+    "bom-ref": "npm/vite@^8.0.16"
+   },
+   {
+    "type": "library",
+    "name": "vitest",
+    "version": "^4.1.8",
+    "purl": "pkg:npm/vitest@^4.1.8",
+    "bom-ref": "npm/vitest@^4.1.8"
+   },
+   {
+    "type": "library",
+    "name": "alembic",
+    "version": "<2.0.0",
+    "purl": "pkg:pypi/alembic@2.0.0",
+    "bom-ref": "pypi/alembic@<2.0.0"
+   },
+   {
+    "type": "library",
+    "name": "bcrypt",
+    "version": "<5.0.0",
+    "purl": "pkg:pypi/bcrypt@5.0.0",
+    "bom-ref": "pypi/bcrypt@<5.0.0"
+   },
+   {
+    "type": "library",
+    "name": "python-dateutil",
+    "version": "<3.0.0",
+    "purl": "pkg:pypi/python-dateutil@3.0.0",
+    "bom-ref": "pypi/python-dateutil@<3.0.0"
+   },
+   {
+    "type": "library",
+    "name": "dependency-injector",
+    "version": "<5.0.0",
+    "purl": "pkg:pypi/dependency-injector@5.0.0",
+    "bom-ref": "pypi/dependency-injector@<5.0.0"
+   },
+   {
+    "type": "library",
+    "name": "fastapi",
+    "version": "<0.140.5",
+    "purl": "pkg:pypi/fastapi@0.140.5",
+    "bom-ref": "pypi/fastapi@<0.140.5"
+   },
+   {
+    "type": "library",
+    "name": "httpx",
+    "version": "<1.0.0",
+    "purl": "pkg:pypi/httpx@1.0.0",
+    "bom-ref": "pypi/httpx@<1.0.0"
+   }
+  ]
+ },
+ "elapsed_seconds": 48.03
+}
